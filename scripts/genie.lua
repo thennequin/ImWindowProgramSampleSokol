@@ -15,7 +15,7 @@ solution "Program"
 
 	startproject "Program"
 	project "Program"
-		uuid				"e0ba3c4d-338b-4517-8bbd-b29311fd6830"
+		uuid				"949f151b-7d07-4bf2-9805-fe40d7a62480"
 		kind				"WindowedApp"
 		targetdir			(PROJECT_RUNTIME_DIR)
 
