@@ -4,6 +4,7 @@
 #include "ShortKeyManager.h"
 
 #include "Windows/SampleWindow.h"
+#include "Windows/CubeRenderWindow.h"
 
 Program* Program::s_pInstance = NULL;
 
@@ -23,7 +24,12 @@ Program::Program()
 
 	m_pShortKeyManager = new ShortKeyManager();
 
-	new SampleWindow();
+	SampleWindow* pSampleWindow = new SampleWindow();
+
+	CubeRenderWindow* pCubeRenderWindow = new CubeRenderWindow();
+
+	m_oMgr.Dock(pSampleWindow);
+	m_oMgr.DockWith(pCubeRenderWindow, pSampleWindow, ImWindow::E_DOCK_ORIENTATION_RIGHT);
 }
 
 Program::~Program()
