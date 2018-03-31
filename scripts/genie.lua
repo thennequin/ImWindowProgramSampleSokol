@@ -28,9 +28,9 @@ solution "Program"
 							"../Externals/ImWindow/Externals/imgui/imgui_internal.h",
 							"../Externals/ImWindow/Externals/imgui/imgui.cpp",
 							"../Externals/ImWindow/Externals/imgui/imgui_draw.cpp",
-							"../Externals/ImWindow/Externals/imgui/SFF_rect_pack.h",
-							"../Externals/ImWindow/Externals/imgui/SFF_textedit.h",
-							"../Externals/ImWindow/Externals/imgui/SFF_truetype.h",
+							"../Externals/ImWindow/Externals/imgui/stb_rect_pack.h",
+							"../Externals/ImWindow/Externals/imgui/stb_textedit.h",
+							"../Externals/ImWindow/Externals/imgui/stb_truetype.h",
 							
 							"../Externals/ImWindow/Externals/EasyWindow/EasyWindow*.cpp",
 							"../Externals/ImWindow/Externals/EasyWindow/EasyWindow*.h",
