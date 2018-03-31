@@ -55,7 +55,8 @@ solution "Program"
 							["flextGL"] = "../Externals/ImWindow/Externals/flextGL/**",
 							["sokol"] = "../Externals/ImWindow/Externals/sokol/**",
 							["ImWindowEasyWindow"] = "../Externals/ImWindow/ImWindowEasyWindow/**",
-							["ImWindowSokol"] = "../Externals/ImWindow/ImWindowSokol/**"
+							["ImWindowSokol"] = "../Externals/ImWindow/ImWindowSokol/**",
+							["glm"] = "../Externals/glm/glm/**"
 		}
 		
 		includedirs {
@@ -66,6 +67,7 @@ solution "Program"
 							"../Externals/ImWindow/ImWindow",
 							"../Externals/ImWindow/ImWindowEasyWindow",
 							"../Externals/ImWindow/ImWindowSokol",
+							"../Externals/glm",
 							"../src/"
 		}
 
